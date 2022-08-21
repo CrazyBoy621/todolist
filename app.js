@@ -82,7 +82,7 @@ app.post('/', (req, res) => {
 app.get('/work', (req, res) => {
     res.render('list', {
         listTitle: 'Work List',
-        newListItems: workItems
+        newListItems: workItems,
     });
 }
 );

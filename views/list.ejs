@@ -13,8 +13,9 @@
 
     <form class="item" action="/" method="post">
       <input type="text" name="newItem" placeholder="New Item" autocomplete="off"/>
-      <button type="submit" name="list" value=<%=listTitle%>>+</button>
+      <button class="plus" type="submit" name="list" value=<%=listTitle%>>+</button>
     </form>
+    <a href="/work"><button>Work</button></a><a href="/about"><button>About</button></a><a href="/"><button style="width: 100%;">Home</button></a>
     </div>
   
     <%- include("footer") -%>

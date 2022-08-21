@@ -56,7 +56,22 @@ form {
   margin-left: 20px;
 }
 
-button {
+button{
+  background-color: #2C2B2C;
+  cursor: pointer;
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  border-color: transparent;
+  border-width: 0;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #1b1d1f;
+}
+
+.plus {
   min-height: 50px;
   width: 50px;
   border-radius: 50%;
